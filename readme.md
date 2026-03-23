@@ -230,3 +230,8 @@ The project follows this pipeline:
 ```bash
 pip install -r requirements.txt
 ```
+
+## Acknowledgements
+
+- Created by: Koh Yihao Kendrick
+- Mentored by: Professor Ong Chin Ann
