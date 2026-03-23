@@ -19,20 +19,31 @@ The project covers:
 
 ---
 
-## 📁 Repository Structure
+## Disclaimer on Red Teaming Data and Results
 
+Due to ethical considerations and participant privacy, not all red teaming datasets, application details, and experimental results have been included in this repository. The project involved testing on student-developed LLM applications under informed consent, and certain data—such as application-specific prompts, responses, and system configurations—may contain sensitive or identifiable information.
+
+As such, portions of the datasets and results have been omitted or anonymized to ensure compliance with privacy guidelines and to protect the participants involved. The materials provided in this repository are representative of the methodologies and findings discussed in the report, without exposing confidential or sensitive information.
+
+---
+
+## Repository Structure
+
+```
+FYP_Submission/
 ├── initial_datasets/
 ├── experimental_phase/
 ├── azure automated red team/
 ├── red_teaming/
 ├── requirements.txt
-├── readme.md
+└── README.md
+```
 
 ---
 
 ## Initial Datasets
 
-📂 `initial_datasets/`
+`initial_datasets/`
 
 Contains early prompt injection datasets and baseline results used for:
 
@@ -50,7 +61,7 @@ These represent early experiment outputs from local models and serve as **founda
 
 ## Experimental Phase
 
-📂 `experimental_phase/`
+`experimental_phase/`
 
 This phase validates the adversarial dataset in controlled environments.
 
@@ -89,7 +100,7 @@ This phase validates the adversarial dataset in controlled environments.
 
 ### Azure Results
 
-📂 `experimental_phase/azure_red_team/`
+`experimental_phase/azure_red_team/`
 
 - `red_teamed_azure.xlsx`
 - `red_teamed_azure_validated.xlsx`
@@ -100,7 +111,7 @@ Results from Azure GPT-4o experiments
 
 ### Ollama Results
 
-📂 `experimental_phase/ollama_red_team/`
+`experimental_phase/ollama_red_team/`
 
 - `red_teamed_ollama.xlsx`
 - `red_teamed_ollama_validated.xlsx`
@@ -111,7 +122,7 @@ Results from locally hosted models
 
 ### Defense Evaluation
 
-📂 `experimental_phase/experiment_evaluate/`
+`experimental_phase/experiment_evaluate/`
 
 #### `guardrail.py`
 
@@ -146,7 +157,7 @@ Results from locally hosted models
 
 ## Azure Automated Red Teaming
 
-📂 `azure automated red team/`
+`azure automated red team/`
 
 ---
 
@@ -185,31 +196,7 @@ Results from locally hosted models
 
 ## Real-World Red Teaming
 
-📂 `red_teaming/`
-
----
-
-### RAG Experiments
-
-📂 `red_teaming/RAG/`
-
-Files include:
-
-- `rag_prompt.xlsx`
-- `rag_prompt_pii.xlsx`
-- `rag_result*.xlsx`
-
-Used to test:
-
-- PII leakage
-- RAG-based vulnerabilities
-- retrieval manipulation
-
----
-
-### Final Results
-
-📂 `red_teaming/Results/`
+`red_teaming/Results/`
 
 - `prompt_injection_final.xlsx`
 - `results_raw.xlsx`
