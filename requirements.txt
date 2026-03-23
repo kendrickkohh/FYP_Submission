@@ -1,0 +1,17 @@
+pandas
+datasets
+ollama
+openpyxl
+openai
+pyrit
+jupyter
+xlsxwriter
+azure-ai-evaluation
+azure-identity
+langchain
+langchain-community
+langchain_openai
+llm-guard
+chromadb
+pypdf
+dotenv
